@@ -1,0 +1,2 @@
+- [[CVE-2020-11988] Apache XML Graphics Commons SSRF vulnerability](https://seclists.org/oss-sec/2021/q1/173)
+- [[CVE-2020-11987] Apache XML Graphics Batik SSRF vulnerability](https://seclists.org/oss-sec/2021/q1/174)

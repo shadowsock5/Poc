@@ -1,0 +1,3 @@
+- https://hnd3884.github.io/posts/cve-2022-22005-microsoft-sharepoint-RCE/
+- https://github.com/whoadmin/pocs/blob/master/microsoft_SharePoint_cve-2020-16952_rce.py
+- https://www.zerodayinitiative.com/blog/2021/10/5/cve-2021-26420-remote-code-execution-in-sharepoint-via-workflow-compilation

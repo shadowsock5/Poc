@@ -1,0 +1,2 @@
+- [CVE-2021-26117: ActiveMQ: LDAP-Authentication does not verify passwords on servers with anonymous bind](https://seclists.org/oss-sec/2021/q1/78)
+- [CVE-2021-26118: Flaw in ActiveMQ Artemis OpenWire support](https://seclists.org/oss-sec/2021/q1/77)

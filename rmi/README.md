@@ -1,0 +1,6 @@
+- [针对RMI服务的九重攻击](https://xz.aliyun.com/t/7930)
+- [RMI-反序列化](https://xz.aliyun.com/t/6660)
+- [RMI 利用分析](https://mp.weixin.qq.com/s/5xHPCklm3IyBn7vc5_OiUA)
+- [CVE-2017-3241 Java RMI Registry.bind()反序列化漏洞](http://www.code2sec.com/cve-2017-3241-java-rmi-registrybindfan-xu-lie-hua-lou-dong.html)
+- https://github.com/A-D-Team/attackRmi
+- https://mogwailabs.de/en/blog/2019/03/attacking-java-rmi-services-after-jep-290/

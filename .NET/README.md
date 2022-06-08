@@ -1,0 +1,1 @@
+- [Vulnerability Spotlight: RCE in Ajax.NET Professional](https://mogwailabs.de/en/blog/2022/01/vulnerability-spotlight-rce-in-ajax.net-professional/)

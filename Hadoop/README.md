@@ -1,0 +1,1 @@
+- [[CVE-2020-9492] Apache Hadoop Potential privilege escalation](https://seclists.org/oss-sec/2021/q1/69)

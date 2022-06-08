@@ -1,0 +1,3 @@
+- [CVE-2021-27905: Apache Solr: SSRF vulnerability with the Replication handler](https://seclists.org/oss-sec/2021/q2/19)
+- [CVE-2021-29262: Apache Solr: Misapplied Zookeeper ACLs can result in leakage of configured authentication and authorization settings](https://seclists.org/oss-sec/2021/q2/18)
+- [CVE-2021-29943: Apache Solr Unprivileged users may be able to perform unauthorized read/write to collections](https://seclists.org/oss-sec/2021/q2/17)
