@@ -17,3 +17,14 @@ POST /nacos/v1/auth/users?username=test&password=test123
 
 - https://securitylab.github.com/advisories/GHSL-2020-325_326-nacos/
 - https://www.cnblogs.com/hack404/p/14697313.html
+
+
+
+## 安装
+https://github.com/alibaba/nacos/releases/download/2.0.3/nacos-server-2.0.3.zip
+```
+unzip -q nacos-server-2.0.3.zip
+bin/startup.sh -m standalone
+```
+
+![image](https://user-images.githubusercontent.com/30398606/173304250-3c57144d-6b7b-4291-bc31-473c07cf504b.png)
