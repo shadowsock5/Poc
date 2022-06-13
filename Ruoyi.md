@@ -43,4 +43,12 @@ https://gitee.com/y_project/RuoYi-Cloud
 运行之后的控制台：
 ![image](https://user-images.githubusercontent.com/30398606/173300011-254feedf-41b9-42af-98e5-ecfa290fd069.png)
 
+其运行依赖nacos：
+https://github.com/shadowsock5/Poc/blob/master/Nacos/README.md
+
+
+网关启动成功：
+![image](https://user-images.githubusercontent.com/30398606/173305512-aec96037-25a2-4b1f-8f35-dde0880e7b5a.png)
+
+
 
