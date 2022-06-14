@@ -43,3 +43,7 @@ https://snyk.io/vuln/maven:org.apache.tomcat.embed%3Atomcat-embed-core
 > A specially crafted sequence of HTTP/2 requests sent to Apache Tomcat 10.0.0-M1 to 10.0.0-M5, 9.0.0.M1 to 9.0.35 and 8.5.0 to 8.5.55 could trigger high CPU usage for several seconds. If a sufficient number of such requests were made on concurrent HTTP/2 connections, the server could become unresponsive.
 
 https://github.com/rusakovichma/tomcat-embed-core-9.0.31-CVE-2020-11996/blob/master/test/org/apache/coyote/http2/TestHttp2Section_5_1.java
+
+### tomcat-jmxproxy
+
+https://github.com/4ra1n/tomcat-jmxproxy-rce-exp
