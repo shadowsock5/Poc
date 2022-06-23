@@ -4,3 +4,4 @@
 
 Ref:
 - [使用 MAT 查找 spring heapdump 中的密码明文 ](https://landgrey.me/blog/16/)
+- https://0xn3va.gitbook.io/cheat-sheets/framework/spring/spring-boot-actuators
