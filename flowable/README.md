@@ -45,3 +45,6 @@ sudo docker run -p9988:9988 -e FLOWABLE_COMMON_APP_IDM-URL=http://192.168.17.129
 ```
 java -jar ./ruoyi-admin/target/ruoyi-admin.jar
 ```
+
+启动完之后张这样：
+![image](https://user-images.githubusercontent.com/30398606/176610306-6aca5d35-1349-471e-854b-b4e2bc334b83.png)
