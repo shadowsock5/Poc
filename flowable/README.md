@@ -48,3 +48,13 @@ java -jar ./ruoyi-admin/target/ruoyi-admin.jar
 
 启动完之后张这样：
 ![image](https://user-images.githubusercontent.com/30398606/176610306-6aca5d35-1349-471e-854b-b4e2bc334b83.png)
+
+这个只是后端。
+前端需要：
+```
+cd ruoyi-ui
+npm install
+# 建议不要直接使用 cnpm 安装依赖，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
+# npm install --registry=https://registry.npm.taobao.org
+npm run dev
+```
