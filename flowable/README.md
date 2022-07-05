@@ -24,7 +24,7 @@ sudo docker run -p9988:9988 -e FLOWABLE_COMMON_APP_IDM-URL=http://192.168.17.129
 - https://forum.flowable.org/t/how-to-write-a-custom-function-usable-in-juel-expressions/1844
 - [Flowable最新中文文档](https://github.com/qiudaoke/flowable-userguide)
 - https://programmer.group/flowable-getting-started-series-article-54-execution-listener.html
-
+- https://www.flowable.com/open-source/docs/bpmn/ch02-GettingStarted
 
 ### 配置
 项目：https://gitee.com/tony2y/RuoYi-flowable
