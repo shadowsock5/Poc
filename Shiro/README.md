@@ -55,6 +55,7 @@ Cookie: rememberMe=FmufV4kFigslNT5gT7/nF9BUTDnlh3JypruJlvhXbVTPgtlNPis31dHij0+PP
 - https://jkme.github.io/cve-2016-6802-exp.html
 - [Apache Shiro 两种姿势绕过认证分析（CVE-2020-17523）](https://paper.seebug.org/1478/)
 - [tomcat容器url解析特性研究](https://xz.aliyun.com/t/10799)
+- [CVE-2022-32532: Apache Shiro: Authentication Bypass Vulnerability](https://seclists.org/oss-sec/2022/q2/215)
 
 ## Shiro反序列化利用工具
 - https://github.com/Ares-X/shiro-exploit
