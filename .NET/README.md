@@ -2,3 +2,4 @@
 - [Bypassing .NET Serialization Binders](https://codewhitesec.blogspot.com/2022/06/bypassing-dotnet-serialization-binders.html)
 - https://github.com/mandiant/route-sixty-sink
 - [CVE-2022-28684 .NET 最强大 UI 框架 DevExpress 如何绕过反序列化绑定类型限制实现 RCE](https://mp.weixin.qq.com/s/R0yWouaDirELdZ7qxMiwlA)
+- [CVE-2022-22974 iSpy .NET 视频监控软件存在认证绕过&远程命令执行漏洞](https://mp.weixin.qq.com/s/E7z3IkYnZxKndCxsf6S6XA)
