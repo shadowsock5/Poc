@@ -1,2 +1,3 @@
 - [Vulnerability Spotlight: RCE in Ajax.NET Professional](https://mogwailabs.de/en/blog/2022/01/vulnerability-spotlight-rce-in-ajax.net-professional/)
 - [Bypassing .NET Serialization Binders](https://codewhitesec.blogspot.com/2022/06/bypassing-dotnet-serialization-binders.html)
+- https://github.com/mandiant/route-sixty-sink
