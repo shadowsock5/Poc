@@ -38,7 +38,7 @@ sudo runuser -l ruoyi -c "java -jar /home/cqq/repos/RuoYi-Vue/ruoyi-admin/target
 ```
 https://gitee.com/y_project/RuoYi-Vue
 https://gitee.com/y_project/RuoYi-Cloud
-
+https://github.com/yangzongzhuan/RuoYi-fast
 
 运行之后的控制台：
 ![image](https://user-images.githubusercontent.com/30398606/173300011-254feedf-41b9-42af-98e5-ecfa290fd069.png)
