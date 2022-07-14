@@ -1,3 +1,4 @@
 - [Vulnerability Spotlight: RCE in Ajax.NET Professional](https://mogwailabs.de/en/blog/2022/01/vulnerability-spotlight-rce-in-ajax.net-professional/)
 - [Bypassing .NET Serialization Binders](https://codewhitesec.blogspot.com/2022/06/bypassing-dotnet-serialization-binders.html)
 - https://github.com/mandiant/route-sixty-sink
+- [CVE-2022-28684 .NET 最强大 UI 框架 DevExpress 如何绕过反序列化绑定类型限制实现 RCE](https://mp.weixin.qq.com/s/R0yWouaDirELdZ7qxMiwlA)
