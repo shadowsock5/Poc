@@ -9,6 +9,7 @@
 
 Ref: 
 - https://github.com/Al1ex/CVE-2020-36179
+- https://www.leadroyal.cn/p/594/
 - https://github.com/threedr3am/learnjavabug/tree/master/jackson/src/main/java/com/threedr3am/bug/jackson/rce
 
 
