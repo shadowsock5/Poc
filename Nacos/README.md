@@ -28,3 +28,8 @@ bin/startup.sh -m standalone
 ```
 
 ![image](https://user-images.githubusercontent.com/30398606/173304250-3c57144d-6b7b-4291-bc31-473c07cf504b.png)
+
+
+## 参考
+- [Nacos结合Spring Cloud Gateway RCE利用](https://xz.aliyun.com/t/11493)
+- [Nacos Client Yaml反序列化漏洞分析](https://xz.aliyun.com/t/10355)
