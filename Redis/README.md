@@ -5,6 +5,7 @@
 - https://github.com/yuyan-sec/RedisEXP
 - https://github.com/n0b0dyCN/redis-rogue-server
 - https://2018.zeronights.ru/wp-content/uploads/materials/15-redis-post-exploitation.pdf
+- [Redis Lua沙盒绕过命令执行（CVE-2022-0543）](https://github.com/vulhub/vulhub/blob/master/redis/CVE-2022-0543/README.zh-cn.md)
 
 ## 写文件
 ### Windows
