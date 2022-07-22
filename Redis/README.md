@@ -1,6 +1,9 @@
 # 参考
 - [细数 redis 的几种 getshell 方法](https://paper.seebug.org/1169/)
 - https://github.com/Ridter/redis-rce
+- http://dmitrypol.github.io/redis/2020/10/01/redis-sentinel.html
+- https://github.com/yuyan-sec/RedisEXP
+- https://github.com/n0b0dyCN/redis-rogue-server
 - https://2018.zeronights.ru/wp-content/uploads/materials/15-redis-post-exploitation.pdf
 
 ## 写文件
