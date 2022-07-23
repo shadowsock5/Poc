@@ -273,7 +273,7 @@ XLSX文件的XXE：
 参考：[利用EXCEL进行XXE攻击](https://xz.aliyun.com/t/3741)
 
 ## 参考
-- [9102年Java里的XXE](https://www.leadroyal.cn/?p=914)
+- [9102年Java里的XXE](https://www.leadroyal.cn/p/914/)
 - [一篇文章带你深入理解漏洞之 XXE 漏洞](https://xz.aliyun.com/t/3357)
 - [A blind XXE injection callback handler. Uses HTTP and FTP to extract information.](https://github.com/TheTwitchy/xxer)
 - [Java底层修改对XXE利用FTP通道的影响](http://scz.617.cn:8/misc/201911011122.txt)
