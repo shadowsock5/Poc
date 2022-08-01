@@ -14,3 +14,4 @@
 - [CVE-2022-22980 Spring Data MongoDB SpEL表达式注入](https://xz.aliyun.com/t/11484)
 - [Spel的研究总结](https://xz.aliyun.com/t/11478)
 - https://github.com/trganda/CVE-2022-22980
+- https://github.com/Kyo-w/Spel-research
