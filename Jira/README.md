@@ -65,3 +65,4 @@ Ref:
 - https://github.com/adampielak/nuclei-templates/blob/41b5ac924c9324599d979bc1f36c058f167b31d4/CVE-2022-0540.yaml
 - https://blog.viettelcybersecurity.com/cve-2022-0540-authentication-bypass-in-seraph/
 - https://confluence.atlassian.com/jira/jira-security-advisory-2022-04-20-1115127899.html
+- [CVE-2022-0540: Jira身份验证绕过分析](https://xz.aliyun.com/t/11543)
