@@ -33,3 +33,5 @@ bin/startup.sh -m standalone
 ## 参考
 - [Nacos结合Spring Cloud Gateway RCE利用](https://xz.aliyun.com/t/11493)
 - [Nacos Client Yaml反序列化漏洞分析](https://xz.aliyun.com/t/10355)
+- https://github.com/google/tsunami-security-scanner-plugins/issues/118
+- https://github.com/google/tsunami-security-scanner-plugins/issues/119
