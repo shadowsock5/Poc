@@ -51,3 +51,7 @@ ${"freemarker.template.utility.ObjectConstructor"?new()("java.util.Scanner", "fr
 - [【最新漏洞预警】CVE-2022-22954 VMware Workspace ONE Access SSTI漏洞](https://mp.weixin.qq.com/s/X_E0zWONLVUQcgP6nZ78Mw)
 - https://sp4zcmd.github.io/2021/09/01/FreeMarker%E6%A8%A1%E6%9D%BF%E6%B3%A8%E5%85%A5/#CVE-2019-9614
 - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection#freemarker
+- [CVE-2021-46361: FreeMarker Restriction Bypass in Magnolia CMS](https://github.com/DrunkenShells/Disclosures/blob/afbd8cba88b17b749776747b6297d42963e93c3e/CVE-2021-46361-FreeMarker%20Bypass-Magnolia%20CMS/README.md)
+- [CVE-2021-46362: Unauthenticated SSTI in Magnolia CMS](https://github.com/DrunkenShells/Disclosures/blob/afbd8cba88b17b749776747b6297d42963e93c3e/CVE-2021-46362-Unauthenticated%20SSTI-Magnolia%20CMS/README.md)
+- https://jira.magnolia-cms.com/browse/BUILD-541
+
