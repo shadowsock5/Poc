@@ -1,6 +1,14 @@
 - [tomcat常用漏洞汇总](https://saucer-man.com/information_security/507.html)
 - [tomcat容器url解析特性研究](https://xz.aliyun.com/t/10799)
 
+
+### [CVE-2020-1938] Tomcat AJP协议漏洞
+#### 影响范围
+Apache Tomcat 6
+Apache Tomcat 7 < 7.0.100
+Apache Tomcat 8 < 8.5.51
+Apache Tomcat 9 < 9.0.31
+
 ### [CVE-2020-9484] Tomcat Session 反序列化漏洞
 
 
