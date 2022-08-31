@@ -5,6 +5,7 @@
 - [Fastjson 渗透测试指北](https://mp.weixin.qq.com/s/QGyb1Zv4F9IvmjKfiCD_4Q)
 - [fastjson不出网利用、c3p0](https://github.com/depycode/fastjson-c3p0)
 - [浅谈fastjson waf Bypass思路](https://www.sec-in.com/article/950)
+- https://github.com/LeadroyaL/fastjson-blacklist
 
 
 
