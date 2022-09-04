@@ -6,8 +6,7 @@
 - [fastjson不出网利用、c3p0](https://github.com/depycode/fastjson-c3p0)
 - [浅谈fastjson waf Bypass思路](https://www.sec-in.com/article/950)
 - https://github.com/LeadroyaL/fastjson-blacklist
-
-
+- [fastjson payload大集合](https://mp.weixin.qq.com/s/I0OdFPnRH_r1yZ04tOB-cw)
 
 ## fastjson黑盒检测
 ```json
