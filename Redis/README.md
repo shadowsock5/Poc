@@ -6,6 +6,7 @@
 - https://github.com/n0b0dyCN/redis-rogue-server
 - https://2018.zeronights.ru/wp-content/uploads/materials/15-redis-post-exploitation.pdf
 - [Redis Lua沙盒绕过命令执行（CVE-2022-0543）](https://github.com/vulhub/vulhub/blob/master/redis/CVE-2022-0543/README.zh-cn.md)
+- [对 Redis 在 Windows 下的利用方式思考](http://r3start.net/index.php/2020/05/25/717)
 
 ## 写文件
 ### Windows
