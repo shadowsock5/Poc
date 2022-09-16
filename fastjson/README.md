@@ -7,6 +7,7 @@
 - [浅谈fastjson waf Bypass思路](https://www.sec-in.com/article/950)
 - https://github.com/LeadroyaL/fastjson-blacklist
 - [fastjson payload大集合](https://mp.weixin.qq.com/s/I0OdFPnRH_r1yZ04tOB-cw)
+- https://github.com/su18/hack-fastjson-1.2.80
 
 ## fastjson黑盒检测
 ```json
