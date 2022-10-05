@@ -4,6 +4,9 @@
 
 > From log4j 2.15.0, this behavior has been disabled by default. From version 2.16.0 (along with 2.12.2, 2.12.3, and 2.3.1), this functionality has been completely removed. Note that this vulnerability is specific to log4j-core and does not affect log4net, log4cxx, or other Apache Logging Services projects.
 
+> 目前启明星辰ADLab确认受该漏洞影响的产品应用有：Ghidra、Apache James、VMware多应用、Apache Solr、Apache Druid、Apache Flink、Apache Struts2、Dubbo
+https://paper.seebug.org/1787/#_4
+
 ### Waf bypass
 ```
 
