@@ -7,7 +7,8 @@
 - https://github.com/A-D-Team/attackRmi
 - https://mogwailabs.de/en/blog/2019/03/attacking-java-rmi-services-after-jep-290/
 - https://www.usd.de/en/presentation-black-hat-usa-2021/
-- 
+- https://itnext.io/java-rmi-for-pentesters-part-two-reconnaissance-attack-against-non-jmx-registries-187a6561314d
+- https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fitnext.io%2Fjava-rmi-for-pentesters-structure-recon-and-communication-non-jmx-registries-a10d5c996a79
 
 ### Remote Method Guesser
 修改ysoserial的路径，两种方法：
