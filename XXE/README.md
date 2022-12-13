@@ -272,6 +272,12 @@ XLSX文件的XXE：
 
 参考：[利用EXCEL进行XXE攻击](https://xz.aliyun.com/t/3741)
 
+### 绕过特殊符号限制的payload
+
+
+### 基于local DTD的payload
+- https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/
+
 ## 参考
 - [9102年Java里的XXE](https://www.leadroyal.cn/p/914/)
 - [一篇文章带你深入理解漏洞之 XXE 漏洞](https://xz.aliyun.com/t/3357)
