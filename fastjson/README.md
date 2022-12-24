@@ -311,3 +311,4 @@ Mysqlconnector 6.x or < 8.0.20
 - https://mp.weixin.qq.com/s/0yyZH_Axa0UTr8kquSixwQ
 - https://mp.weixin.qq.com/s/SwkJVTW3SddgA6uy_e59qg
 - https://github.com/kezibei/fastjson_payload
+- https://mp.weixin.qq.com/s/BRBcRtsg2PDGeSCbHKc0fg
