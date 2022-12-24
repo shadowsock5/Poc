@@ -313,3 +313,4 @@ Mysqlconnector 6.x or < 8.0.20
 - https://github.com/kezibei/fastjson_payload
 - https://mp.weixin.qq.com/s/BRBcRtsg2PDGeSCbHKc0fg
 - https://mp.weixin.qq.com/s/wdOb5ESfbkMSfdDlRvOg-g
+- https://github.com/Whoopsunix/fastjson_study/blob/master/recurring.md
