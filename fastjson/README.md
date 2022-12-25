@@ -317,3 +317,4 @@ Mysqlconnector 6.x or < 8.0.20
 - https://y4er.com/posts/fastjson-1.2.80/
 - https://github.com/Whoopsunix/fastjson_study/blob/master/recurring.md
 - https://www.yulegeyu.com/2022/11/12/Java%E5%AE%89%E5%85%A8%E6%94%BB%E9%98%B2%E4%B9%8B%E8%80%81%E7%89%88%E6%9C%ACFastjson-%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%87%BA%E7%BD%91%E5%88%A9%E7%94%A8/
+- https://mp.weixin.qq.com/s/m2U4zNkLCJvO3l1jChzeFw
