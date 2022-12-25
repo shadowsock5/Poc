@@ -277,6 +277,7 @@ XLSX文件的XXE：
 
 ### 基于local DTD的payload
 - https://mohemiv.com/all/exploiting-xxe-with-local-dtd-files/
+- https://github.com/GoSecure/dtd-finder/blob/master/list/xxe_payloads.md
 
 ## 参考
 - [9102年Java里的XXE](https://www.leadroyal.cn/p/914/)
