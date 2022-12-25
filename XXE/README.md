@@ -286,3 +286,4 @@ XLSX文件的XXE：
 - [Java底层修改对XXE利用FTP通道的影响](http://scz.617.cn:8/misc/201911011122.txt)
 - [XXE bruteforce wordlist including local DTD payloads from https://github.com/GoSecure/dtd-finder](https://gist.github.com/honoki/d7035c3ccca1698ec7b541c77b9410cf)
 - [Misconfigurations in Java XML Parsers](https://immunityservices.blogspot.com/2021/02/misconfigurations-in-java-xml-parsers.html)
+- https://web-in-security.blogspot.com/2016/03/xxe-cheat-sheet.html?m=1
