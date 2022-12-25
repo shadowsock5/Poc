@@ -607,3 +607,4 @@ postgresql的gadget：
 
 ![image](https://user-images.githubusercontent.com/30398606/209432505-cdcdc136-be4f-4e11-b0cd-25acea65a828.png)
 
+但是`ClassPathXmlApplicationContext`因为不是`java.net.SocketFactory`的子类，而失败。
