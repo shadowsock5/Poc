@@ -603,8 +603,35 @@ postgresql的gadget：
     "url": ""
 }
 ```
+
+42.3.3的org.postgresql:postgresql，
 ![image](https://user-images.githubusercontent.com/30398606/209430315-a2d4bd68-ee07-49ea-856c-c37b8fcb698b.png)
 
 ![image](https://user-images.githubusercontent.com/30398606/209432505-cdcdc136-be4f-4e11-b0cd-25acea65a828.png)
 
 但是`ClassPathXmlApplicationContext`因为不是`java.net.SocketFactory`的子类，而失败。
+
+在42.3.1的org.postgresql:postgresql，
+![image](https://user-images.githubusercontent.com/30398606/209749750-f8e4be4c-3e73-474d-af6f-1c39753fd4fe.png)
+
+![image](https://user-images.githubusercontent.com/30398606/209750185-f93dd77a-81c9-4ea3-bd04-9f651cdbbe43.png)
+
+
+![image](https://user-images.githubusercontent.com/30398606/209750306-919d6698-a972-46b3-9cf1-461c6b580b77.png)
+
+
+![image](https://user-images.githubusercontent.com/30398606/209750328-2b9e888d-2a08-4739-8ba6-44bd4098f763.png)
+
+这里的socketFactory可以是任意支持接受一个String类型参数构造器的类？
+
+再用42.2.6的测试，
+![image](https://user-images.githubusercontent.com/30398606/209751264-2ff8d7cf-250f-48cb-bb8e-9079858462f0.png)
+成功。
+
+所以这个链的适用范围是(0, 42.3.1]?
+
+Ref：
+- https://github.com/pgjdbc/pgjdbc/security/advisories/GHSA-v7wg-cpwc-24m4
+- [CVE-2022-21724] Unchecked Class Instantiation when providing Plugin Classes
+- https://mvnrepository.com/artifact/org.postgresql/postgresql
+
