@@ -35,3 +35,4 @@ bin/startup.sh -m standalone
 - [Nacos Client Yaml反序列化漏洞分析](https://xz.aliyun.com/t/10355)
 - https://github.com/google/tsunami-security-scanner-plugins/issues/118
 - https://github.com/google/tsunami-security-scanner-plugins/issues/119
+- [云原⽣组件Nacos新型红队手法研究](https://mp.weixin.qq.com/s/Jwwd5ailKNhwR57ACXB1kQ)
