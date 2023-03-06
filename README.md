@@ -13,5 +13,6 @@
 - https://github.com/eugenp/tutorials
 - https://github.com/Phuong39/2022-HW-POC
 - https://github.com/DrunkenShells/Disclosures
+- https://vuls.info/Vulnerability-Wiki/edge/EDGE/H3C-SecPath-%E8%BF%90%E7%BB%B4%E5%AE%A1%E8%AE%A1%E7%B3%BB%E7%BB%9F%28%E5%A0%A1%E5%9E%92%E6%9C%BA%29%E4%BB%BB%E6%84%8F%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/
 - https://github.com/Firebasky/Java
 - https://github.com/bit4woo/Fiora
