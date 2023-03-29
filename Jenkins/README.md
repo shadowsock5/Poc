@@ -5,3 +5,4 @@
 - https://github.com/carlospolop/hacktricks-cloud/tree/master/pentesting-ci-cd/jenkins-security
 - https://github.com/carlospolop/hacktricks-cloud/blob/master/pentesting-ci-cd/jenkins-security/basic-jenkins-information.md
 - https://github.com/gquere/pwn_jenkins/blob/master/offline_decryption/jenkins_offline_decrypt.py
+- https://cloud.hacktricks.xyz/pentesting-ci-cd/jenkins-security
