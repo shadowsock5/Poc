@@ -115,3 +115,4 @@ http://192.168.17.128:5601/api/console/api_server?sense_version=@@SENSE_VERSION&
 - https://www.synacktiv.com/en/publications/pwning-an-outdated-kibana-with-not-so-sad-vulnerabilities.html
 - https://twitter.com/chybeta/status/1185860595620311042
 - https://github.com/harsh-bothra/learn365/blob/main/days/day32.md
+- https://github.com/kh4sh3i/ElasticSearch-Pentesting
