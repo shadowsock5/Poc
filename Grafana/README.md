@@ -26,7 +26,8 @@ any low priviledged user (eg: VIEWER) can abuse this vulnerability to read arbit
 /public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../etc/passwd
 ```
 
-
+### Grafana RCE?
+- [Grafana RCE via SMTP server parameter injection](https://hackerone.com/reports/1200647)
 
 ## Ref
 
