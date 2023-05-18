@@ -309,12 +309,12 @@ Mysqlconnector 6.x or < 8.0.20
 - https://f5.pm/go-82366.html
 - [fastjson 读文件 gadget 的利用场景扩展](https://b1ue.cn/archives/506.html)
 - [无回显场景下通过fastjson读文件](https://tyskill.github.io/posts/fastjson%E6%97%A0%E5%9B%9E%E6%98%BE%E8%AF%BB%E6%96%87%E4%BB%B6/)
-- https://mp.weixin.qq.com/s/0yyZH_Axa0UTr8kquSixwQ
-- https://mp.weixin.qq.com/s/SwkJVTW3SddgA6uy_e59qg
+- [fastjson v1.2.68 RCE利用链复现](https://mp.weixin.qq.com/s/0yyZH_Axa0UTr8kquSixwQ)
+- [fastjson1.2.80 payload合集](https://mp.weixin.qq.com/s/SwkJVTW3SddgA6uy_e59qg)
 - https://github.com/kezibei/fastjson_payload
-- https://mp.weixin.qq.com/s/BRBcRtsg2PDGeSCbHKc0fg
-- https://mp.weixin.qq.com/s/wdOb5ESfbkMSfdDlRvOg-g
+- [关于blackhat2021披露的fastjson1.2.68链](https://mp.weixin.qq.com/s/BRBcRtsg2PDGeSCbHKc0fg)
+- [寻找Fastjson 1.2.68 AutoCloseable利用链(3)](https://mp.weixin.qq.com/s/wdOb5ESfbkMSfdDlRvOg-g)
 - https://y4er.com/posts/fastjson-1.2.80/
 - https://github.com/Whoopsunix/fastjson_study/blob/master/recurring.md
-- https://www.yulegeyu.com/2022/11/12/Java%E5%AE%89%E5%85%A8%E6%94%BB%E9%98%B2%E4%B9%8B%E8%80%81%E7%89%88%E6%9C%ACFastjson-%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%87%BA%E7%BD%91%E5%88%A9%E7%94%A8/
-- https://mp.weixin.qq.com/s/m2U4zNkLCJvO3l1jChzeFw
+- [老版本Fastjson 的一些不出网利用](https://www.yulegeyu.com/2022/11/12/Java%E5%AE%89%E5%85%A8%E6%94%BB%E9%98%B2%E4%B9%8B%E8%80%81%E7%89%88%E6%9C%ACFastjson-%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%87%BA%E7%BD%91%E5%88%A9%E7%94%A8/)
+- [fastjson1.2.80 漏洞分析复现](https://mp.weixin.qq.com/s/m2U4zNkLCJvO3l1jChzeFw)
