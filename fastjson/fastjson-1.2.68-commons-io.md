@@ -163,6 +163,10 @@
 }
 ```
 
+如果只填8192个a，那么生成的文件里是空的；
+在8192个a后面加任意内容，都只生成前面的8192个字符。
+
+
 
 ![image](https://user-images.githubusercontent.com/30398606/163383791-b3ae8fc6-da32-4d7e-9fba-e2bf00aab462.png)
 
