@@ -8,6 +8,7 @@
 - https://github.com/LeadroyaL/fastjson-blacklist
 - [fastjson payload大集合](https://mp.weixin.qq.com/s/I0OdFPnRH_r1yZ04tOB-cw)
 - https://github.com/su18/hack-fastjson-1.2.80
+- [Fastjson MySQL gadget复现](https://sumsec.me/2021/Fastjson_Mysql_gadget%E5%A4%8D%E7%8E%B0.html)
 
 ## fastjson黑盒检测
 ```json
