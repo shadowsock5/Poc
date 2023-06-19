@@ -27,3 +27,5 @@ Ref:
 - https://github.com/su18/JDBC-Attack/blob/main/mysql-attack/src/main/java/org/su18/jdbc/attack/mysql/serverstatus/Attack8x.java
 - https://github.com/fnmsd/MySQL_Fake_Server
 - [由CVE-2022-21724引申jdbc漏洞](https://mp.weixin.qq.com/s/pYWbpyW8DHXGvqsJurbc6A)
+- https://pyn3rd.github.io/2022/06/06/Make-JDBC-Attacks-Brillian-Again-I/
+- https://pyn3rd.github.io/2022/06/02/Make-JDBC-Attacks-Brilliant-Again/
