@@ -108,6 +108,7 @@ class.module.classLoader.resources.context.parent.pipeline.first.pattern=%25%7Bp
 ```
 其中login2这个endpoint要求请求的Content-Type是json类型。
 
+注意在tomcat的conf/server.xml中必须要有：AccessLogValve这个Valve。
 ### 无损检测
 
 ![image](https://user-images.githubusercontent.com/30398606/169263864-c581fd76-2fc5-453e-a721-c971b8250cbd.png)
