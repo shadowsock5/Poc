@@ -6,6 +6,7 @@
 - [Spring Boot Fat Jar 写文件漏洞到稳定 RCE 的探索](https://landgrey.me/blog/22/)
 - [CVE-2021-22060: Additional Log Injection in Spring Framework (follow-up to CVE-2021-22096)](https://tanzu.vmware.com/security/cve-2021-22060)
 - https://github.com/projectdiscovery/nuclei-templates/blob/master/cves/2022/CVE-2022-22965.yaml
+- https://github.com/ax1sX/SpringSecurity
 
 
 ## Spring RCE
