@@ -21,6 +21,7 @@ getConnection:247, DriverManager (java.sql)
 main:17, TestJdbcController (org.jeecg.modules.demo.test.controller)
 ```
 
+jdbc后门，用于放在传jdbc驱动的地方，Class.forName的时候就可以RCE。
 
 Ref:
 - https://su18.org/post/jdbc-connection-url-attack/#jdbc
@@ -29,3 +30,4 @@ Ref:
 - [由CVE-2022-21724引申jdbc漏洞](https://mp.weixin.qq.com/s/pYWbpyW8DHXGvqsJurbc6A)
 - https://pyn3rd.github.io/2022/06/06/Make-JDBC-Attacks-Brillian-Again-I/
 - https://pyn3rd.github.io/2022/06/02/Make-JDBC-Attacks-Brilliant-Again/
+- [jdbc后门](https://github.com/airman604/jdbc-backdoor)
