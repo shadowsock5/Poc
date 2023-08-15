@@ -124,6 +124,20 @@ openfire\lib\jetty-server-9.4.43.v20210629.jar!\org\eclipse\jetty\server\HttpCha
 
 已经被转换成了`/log.jsp`。
 
+再来看看为什么这个url对应到了log_jsp这个servlet：
+![image](https://github.com/shadowsock5/Poc/assets/30398606/3880365a-e15f-4293-b004-5da88e8ca317)
+
+这里直接就得到的是`NotAsync:org.jivesoftware.openfire.admin.log_jsp@6a5ef204`，调试一下怎么得到的。但是如果不是启动后第一次访问这个servlet，就没法得到`this._servlet`被赋值的过程。
+重新启动，第一次访问即使用这个payload。
+在openfire\lib\jetty-servlet-9.4.43.v20210629.jar!\org\eclipse\jetty\servlet\ServletHolder.class#initServlet的第一行下断点。
+没找到。
+最后在这里找到了
+openfire\lib\jetty-servlet-9.4.43.v20210629.jar!\org\eclipse\jetty\servlet\ServletHandler.class#doScope
+![image](https://github.com/shadowsock5/Poc/assets/30398606/26f9f1dd-50ac-49a6-b4c8-a408be079666)
+在这一行就得到了/log.jsp对应的servlet：
+```java
+String old_path_info = baseRequest.getPathInfo()
+```
 
 ## Ref
 - https://mp.weixin.qq.com/s/cuULlP0F0Xf9Rhmkb-9H0g
