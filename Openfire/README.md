@@ -138,6 +138,42 @@ openfire\lib\jetty-servlet-9.4.43.v20210629.jar!\org\eclipse\jetty\servlet\Servl
 ```java
 String old_path_info = baseRequest.getPathInfo()
 ```
+看一下这个`pathInfo`是在哪里被set的：
+有两处：
+
+![image](https://github.com/shadowsock5/Poc/assets/30398606/8e6bd355-5e89-426d-a109-aaf1efefc411)
+```java
+setPathInfo:2210, Request (org.eclipse.jetty.server)
+doScope:1340, ContextHandler (org.eclipse.jetty.server.handler)
+handle:141, ScopedHandler (org.eclipse.jetty.server.handler)
+handle:191, ContextHandlerCollection (org.eclipse.jetty.server.handler)
+handle:146, HandlerCollection (org.eclipse.jetty.server.handler)
+handle:127, HandlerWrapper (org.eclipse.jetty.server.handler)
+handle:516, Server (org.eclipse.jetty.server)
+lambda$handle$1:388, HttpChannel (org.eclipse.jetty.server)
+dispatch:-1, 222164335 (org.eclipse.jetty.server.HttpChannel$$Lambda$142)
+dispatch:633, HttpChannel (org.eclipse.jetty.server)
+handle:380, HttpChannel (org.eclipse.jetty.server)
+onFillable:277, HttpConnection (org.eclipse.jetty.server)
+succeeded:311, AbstractConnection$ReadCallback (org.eclipse.jetty.io)
+fillable:105, FillInterest (org.eclipse.jetty.io)
+run:104, ChannelEndPoint$1 (org.eclipse.jetty.io)
+runJob:883, QueuedThreadPool (org.eclipse.jetty.util.thread)
+run:1034, QueuedThreadPool$Runner (org.eclipse.jetty.util.thread)
+run:748, Thread (java.lang)
+```
+
+往前回溯。
+发现在openfire\lib\jetty-server-9.4.43.v20210629.jar!\org\eclipse\jetty\server\Request.class#setMetaData
+中会调用HttpURI uri.getDecodedPath()，即获取这个uri的`_decodedPath`属性。而这个uri之前已经被
+```java
+this._decodedPath = URIUtil.canonicalPath(decodedNonCanonical)
+```
+转换为`/log.jsp`了。
+![image](https://github.com/shadowsock5/Poc/assets/30398606/9bd5534d-c1f7-4369-a870-f98f0fe307c0)
+最后将这个path：`/log.jsp`设置到org.eclipse.jetty.server.Request的pathInfo上了。
+![image](https://github.com/shadowsock5/Poc/assets/30398606/8ffe9b14-b50f-4219-ab0a-a4816ceda851)
+
 
 ## Ref
 - https://mp.weixin.qq.com/s/cuULlP0F0Xf9Rhmkb-9H0g
