@@ -54,3 +54,12 @@ XXE和SSRF
 
 ref:
 - [CVE-2020-29436：Nexus Repository Manager 3 XML外部实体注入漏洞通告](https://mp.weixin.qq.com/s/CD5TsEGsNocW8WA5jY-pww)
+
+
+### CVE-2021-43293 Authenticated SSRF
+Ref:
+- https://support.sonatype.com/hc/en-us/articles/4409326330003
+
+### CVE-2022-27907 Authenticated SSRF
+Ref:
+- https://support.sonatype.com/hc/en-us/articles/5011047953555
