@@ -31,3 +31,5 @@ Ref:
 - https://pyn3rd.github.io/2022/06/06/Make-JDBC-Attacks-Brillian-Again-I/
 - https://pyn3rd.github.io/2022/06/02/Make-JDBC-Attacks-Brilliant-Again/
 - [jdbc后门](https://github.com/airman604/jdbc-backdoor)
+- https://i.blackhat.com/Asia-23/AS-23-Yuanzhen-A-new-attack-interface-in-Java.pdf
+- [JDBC Attack URL 绕过合集](https://mp.weixin.qq.com/s/lmoWKK41ZQzZOh-P26VUng)
