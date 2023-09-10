@@ -33,3 +33,4 @@ Ref:
 - [jdbc后门](https://github.com/airman604/jdbc-backdoor)
 - https://i.blackhat.com/Asia-23/AS-23-Yuanzhen-A-new-attack-interface-in-Java.pdf
 - [JDBC Attack URL 绕过合集](https://mp.weixin.qq.com/s/lmoWKK41ZQzZOh-P26VUng)
+- [MYSQL JDBC反序列化解析](https://tttang.com/archive/1877/)
