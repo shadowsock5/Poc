@@ -11,3 +11,4 @@ Ref:
 - https://www.oscs1024.com/hd/MPS-4hzd-mb73
 - https://github.com/advisories/GHSA-wp6c-29r3-jqw9
 - [CVE-2023-38992](https://www.oscs1024.com/hd/MPS-f2j4-cs6r)
+- [Jeecg-Boot- CVE-2023-1454](https://mp.weixin.qq.com/s/p_S4c9bkBfJBmKOUNAWQwg)
