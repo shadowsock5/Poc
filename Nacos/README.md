@@ -18,6 +18,10 @@ POST /nacos/v1/auth/users?username=test&password=test123
 - https://securitylab.github.com/advisories/GHSL-2020-325_326-nacos/
 - https://www.cnblogs.com/hack404/p/14697313.html
 
+```
+/nacos/v1/cs/configs?dataId=&group=&appName=&config_tags=&pageNo=1&pageSize=100&tenant=&search=accurate
+```
+
 
 
 ## 安装
@@ -35,4 +39,5 @@ bin/startup.sh -m standalone
 - [Nacos Client Yaml反序列化漏洞分析](https://xz.aliyun.com/t/10355)
 - https://github.com/google/tsunami-security-scanner-plugins/issues/118
 - https://github.com/google/tsunami-security-scanner-plugins/issues/119
+- https://github.com/alibaba/nacos/issues/1105
 - [云原⽣组件Nacos新型红队手法研究](https://mp.weixin.qq.com/s/Jwwd5ailKNhwR57ACXB1kQ)
