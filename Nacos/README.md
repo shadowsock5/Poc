@@ -22,6 +22,9 @@ POST /nacos/v1/auth/users?username=test&password=test123
 /nacos/v1/cs/configs?dataId=&group=&appName=&config_tags=&pageNo=1&pageSize=100&tenant=&search=accurate
 ```
 
+### 反序列化漏洞
+- https://exp10it.cn/2023/06/nacos-jraft-hessian-%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96-rce-%E5%88%86%E6%9E%90/
+- https://github.com/c0olw/NacosRce/tree/main
 
 
 ## 安装
