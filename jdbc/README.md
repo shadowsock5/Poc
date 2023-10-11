@@ -21,6 +21,28 @@ getConnection:247, DriverManager (java.sql)
 main:17, TestJdbcController (org.jeecg.modules.demo.test.controller)
 ```
 
+## postgresql的jdbc驱动(org.postgresql:postgresql) loggerFile任意文件写入
+
+### 影响范围
+[42.1.0, 42.3.3)
+
+### Ref
+- https://github.com/pgjdbc/pgjdbc/security/advisories/GHSA-673j-qm5f-xpv8
+- https://blog.pyn3rd.com/2022/06/02/Make-JDBC-Attacks-Brilliant-Again/
+
+
+## postgresql的jdbc驱动(org.postgresql:postgresql) 的socketFactory任意代码执行
+
+### 影响范围
+- [REL9.4.1208, 42.2.25)
+- [42.3.0, 42.3.2)
+
+### Ref
+- https://github.com/pgjdbc/pgjdbc/security/advisories/GHSA-v7wg-cpwc-24m4
+
+
+
+
 jdbc后门，用于放在传jdbc驱动的地方，Class.forName的时候就可以RCE。
 
 Ref:
