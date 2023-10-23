@@ -23,6 +23,7 @@ jdk11
 - https://github.com/lucksec/Spring-Cloud-Gateway-CVE-2022-22947
 - https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORKCLOUD-2415033
 - https://github.com/lucksec/Spring-Cloud-Gateway-CVE-2022-22947/blob/main/Spring%20Cloud%20Gateway%20Actuator%20API%20SpEL%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B3%A8%E5%85%A5%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%EF%BC%88CVE-2022-22947%EF%BC%89.md
+- https://www.pmnh.site/post/writeup_spring_el_waf_bypass/
 
 
 #### 测试环境
