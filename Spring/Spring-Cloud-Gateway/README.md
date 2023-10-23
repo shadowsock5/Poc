@@ -32,7 +32,11 @@ jdk11
 ![image](https://user-images.githubusercontent.com/30398606/175478287-fb2babf6-b69d-4147-bbef-54f7d913e606.png)
 
 
-受影响版本：3.1.0
+受影响版本：
+```
+org.springframework.cloud:spring-cloud-gateway-server@[3.1.0, 3.1.1)
+org.springframework.cloud:spring-cloud-gateway-server@[2.2.6.RELEASE, 3.0.7)
+```
 ![image](https://user-images.githubusercontent.com/30398606/175480199-c483b215-0511-4f7e-94ef-faad4f6353e9.png)
 
 
