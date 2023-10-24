@@ -44,4 +44,5 @@ bin/startup.sh -m standalone
 - https://github.com/google/tsunami-security-scanner-plugins/issues/118
 - https://github.com/google/tsunami-security-scanner-plugins/issues/119
 - https://github.com/alibaba/nacos/issues/1105
+- https://github.com/alibaba/nacos/releases/tag/2.2.3
 - [云原⽣组件Nacos新型红队手法研究](https://mp.weixin.qq.com/s/Jwwd5ailKNhwR57ACXB1kQ)
