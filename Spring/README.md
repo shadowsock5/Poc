@@ -11,7 +11,13 @@
 
 ## Spring RCE
 影响范围：
+Sprinboot
 -  [2.5,2.5.6.SEC02)
+
+Spring Framwork
+- 5.3.0 to 5.3.17
+- 5.2.0 to 5.2.19
+- Older, unsupported versions are also affected
 
 ### 无损检测
 ```
