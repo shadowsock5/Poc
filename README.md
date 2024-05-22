@@ -18,3 +18,4 @@
 - https://github.com/Firebasky/Java
 - https://github.com/bit4woo/Fiora
 - https://github.com/ax1sX/SecurityList
+- https://github.com/lal0ne/vulnerability （这里有对应的fofa指纹）
