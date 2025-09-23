@@ -20,3 +20,4 @@
 - https://github.com/ax1sX/SecurityList
 - https://github.com/lal0ne/vulnerability （这里有对应的fofa指纹）
 - https://github.com/zan8in/afrog
+- https://github.com/Sec-Fork/POC-20241008
