@@ -4,6 +4,7 @@
 - https://github.com/EdgeSecurityTeam/Vulnerability
 - https://github.com/pen4uin/vulnerability-lab
 - https://github.com/tenable/poc
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation.
 - https://github.com/projectdiscovery/nuclei-templates/tree/master/cves
 - https://github.com/ptresearch/AttackDetection
 - https://github.com/pen4uin/awesome-java-security
